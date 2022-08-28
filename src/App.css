@@ -1,0 +1,230 @@
+
+.nav{
+  background-color: rgb(17, 34, 80);
+  margin: 0;
+  padding: 0;
+  display: flex;
+ justify-content: space-between;
+ margin-bottom: 0;
+ width: 100%;
+  
+  
+  
+  
+}
+.toogle{
+  display: flex;
+}
+.form-input{
+  margin-top: 1.1rem;
+  
+}
+
+.form-inputs{
+  margin-top: 1.1rem;
+  margin-right: 1rem;
+}
+.preview {
+  width: 80%;
+ 
+  overflow-wrap: break-word;
+}
+
+.nav h2 {
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 10px;
+  margin-left: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+color: grey;
+
+ 
+}
+body{
+  margin: 0;
+  padding: 0; 
+  font-family: Arial, Helvetica, sans-serif;   
+  width: 100%;
+}
+#submit{
+  margin-top:.7rem;
+  margin-right: 2rem;
+  padding: .3rem;
+  border-radius: 5rem;
+  background-color: grey;
+  border-radius: 2px solid black;
+
+}
+.allbtn{
+  display: flex;
+}
+#submit:hover{
+  background-color: antiquewhite;
+  color: grey;
+}
+#color1{
+  background: rgb(8, 36, 8);
+  padding: 10px;
+ margin-top: 1.3rem;
+}
+#color2{
+  background: rgb(46, 11, 11);
+  padding: 10px;
+  margin-top: 1.3rem;
+}
+#color3{
+  background: rgb(52, 54, 10);
+  padding: 10px;
+  margin-top: 1.3rem;
+  
+}
+#color1:hover{
+  background: rgb(28, 107, 28);
+  
+}
+#color2:hover{
+  background: rgb(147, 40, 40);
+
+}
+#color3:hover{
+  background: rgb(105, 109, 38);
+  
+}
+.container{
+  
+  margin: 2rem;
+}
+
+.button{
+  display: flex;
+
+ 
+  
+}
+.btn button{
+  margin: .5rem;
+  padding: .4rem;
+  color: white;
+  background-color: rgb(14, 230, 222);
+  border-radius: 8px;
+  align-items: left;
+  box-shadow: 1rem;
+  
+ 
+}
+.btn button:hover{
+  background-color: white;
+  color: rgb(14, 230, 222);
+
+}
+.formcontrol{
+  width: 100%;
+  border-radius: 10px;
+}
+.container h2{
+  text-align: left;
+}
+.alert{
+  background:rgb(193, 237, 193);
+  margin-top: 0;
+  display:flex;
+  color: rgb(22, 166, 61);
+  
+  
+}
+.alert h2{
+  margin-top: 0;
+  display: inline-block;
+  padding-top: 13px;
+  padding-left: 1rem;
+  padding-bottom: 0;
+}
+
+
+@media screen and ( min-width:1024px) {
+  .nav h2 {
+      font-size: 3.2rem;
+  }
+ .container h2 {
+  font-size: 2.5rem;
+ }
+ .nav{
+  width: 100vw;
+ }
+ 
+  
+  .button{
+      display: flex;
+   
+     
+      
+  }
+  .btn button{
+     font-size: 1.3rem;
+      
+     
+  }
+  .btn button:hover{
+      background-color: white;
+      color: rgb(14, 230, 222);
+  
+  }
+  .container p{
+      font-size: 1.3rem;
+  }
+  .priview p{
+     
+      font-size: 1.3rem;
+  }
+  .formcontrol{
+      font-size: 1.3rem;
+      max-width: 80%;
+      
+  }
+ 
+  
+
+  
+}
+
+@media screen and (max-width:400px){
+  .btn button{
+      margin: 5px;
+  }
+  .nav{
+      width: 100vw;
+     } 
+     .nav h2 {
+      margin-left: 0.3rem;
+     }
+     #submit{
+      border: 1px solid black;
+    
+     }
+     .nav h2{
+      font-size: 1rem;
+      padding: 0px;
+     }
+}
+@media screen and (max-width:520px) {
+  #color1{
+      background: rgb(8, 36, 8);
+      padding: 5px;
+   
+  }
+  #color2{
+      background: rgb(46, 11, 11);
+      padding: 5px;
+  }
+  #color3{
+      background: rgb(52, 54, 10);
+      padding: 5px;
+      
+  }
+  .nav h2{
+      padding: 5px;
+      font-size: 1.5rem;
+  }
+  
+  
+}
